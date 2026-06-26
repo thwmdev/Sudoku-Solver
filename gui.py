@@ -15,7 +15,7 @@ def create_gui():
 
     root = ctk.CTk()
 
-    root.title("Modern Sudoku Solver")
+    root.title("Sudoku Solver")
 
     root.geometry("520x600")
 
@@ -77,9 +77,6 @@ def create_gui():
 
             cells[r][c] = entry
 
-    # ==========================
-    # FUNCTIONS
-    # ==========================
 
     def clear_board():
 
@@ -159,7 +156,9 @@ def create_gui():
         solve_btn.configure(state="disabled")
         clear_btn.configure(state="disabled")
         random_btn.configure(state="disabled")
-
+        speed_btn.configure(state="disabled")
+        
+        
         delay = SPEED_DELAYS[current_speed_idx]
 
         if solve(
@@ -188,10 +187,8 @@ def create_gui():
         solve_btn.configure(state="normal")
         clear_btn.configure(state="normal")
         random_btn.configure(state="normal")
+        speed_btn.configure(state="normal") 
 
-    # ==========================
-    # BUTTONS
-    # ==========================
 
     btn_frame = ctk.CTkFrame(
         root,

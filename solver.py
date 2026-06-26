@@ -1,18 +1,17 @@
 import time
 
 def possible(grid, row, column, num):
-
-    # Kiểm tra hàng
+    # ktra hàng
     for i in range(9):
         if grid[row][i] == num:
             return False
 
-    # Kiểm tra cột
+    # ktra cột
     for i in range(9):
         if grid[i][column] == num:
             return False
 
-    # Kiểm tra ô 3x3
+    # ktra ô 3x3
     x0 = (row // 3) * 3
     y0 = (column // 3) * 3
 
