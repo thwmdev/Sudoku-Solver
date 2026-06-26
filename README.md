@@ -5,9 +5,9 @@ Sudoku Solver là ứng dụng được xây dựng trong môn **Nhập môn Tr�
 
 ## Chức năng
  Giải Sudoku chuẩn 9×9, 
- Áp dụng thuật toán Backtracking kết hợp Heuristic MRV, 
- Sinh ngẫu nhiên bảng Sudoku mẫu theo mức độ, 
- Hiển thị trực quan quá trình giải, 
+ Áp dụng thuật toán Backtracking kết hợp Heuristic MRV; 
+ Sinh ngẫu nhiên bảng Sudoku mẫu theo mức độ; 
+ Hiển thị trực quan quá trình giải; 
  Điều chỉnh tốc độ mô phỏng
 
 ## Công nghệ sử dụng
@@ -74,7 +74,7 @@ Nhập môn Trí tuệ nhân tạo
 
   Lương Võ Hân Hân || 
    Bùi Kiếm Khoa ||
-   Huỳnh Thị Hồng Thắm ||
+   Huỳnh Thị Hồng Thắm 
 
 
 
