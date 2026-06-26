@@ -8,6 +8,7 @@ Sudoku Solver là ứng dụng được xây dựng trong môn **Nhập môn Tr�
  Áp dụng thuật toán Backtracking kết hợp Heuristic MRV; 
  Sinh ngẫu nhiên bảng Sudoku mẫu theo mức độ; 
  Hiển thị trực quan quá trình giải; 
+ Xóa và nhập lại dữ liệu; 
  Điều chỉnh tốc độ mô phỏng
 
 ## Công nghệ sử dụng
